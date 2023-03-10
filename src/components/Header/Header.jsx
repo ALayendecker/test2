@@ -1,19 +1,19 @@
 import React from "react";
-import Nav from 'react-bootstrap/Nav';
+import Nav from "react-bootstrap/Nav";
 
 function Header() {
   return (
-    <Nav  variant="tabs" >
-        <Nav.Item>
-        <Nav.Link href="#/My_WebDev_Portfolio">Home</Nav.Link>
+    <Nav variant="tabs">
+      <Nav.Item>
+        <Nav.Link href="/#/">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#/portfolio">Portfolio</Nav.Link>
+        <Nav.Link href="/#/portfolio">Portfolio</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#/contact">Contact</Nav.Link>
+        <Nav.Link href="/#/contact">Contact</Nav.Link>
       </Nav.Item>
-          </Nav>
+    </Nav>
   );
 }
 
